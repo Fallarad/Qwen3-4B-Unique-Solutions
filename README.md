@@ -21,9 +21,10 @@ Solving a task to find all divisors of an integer, the model initially considere
 
 
 Installation and Launch:
-1.Install WSL2 (Ubuntu) and Python 3.11.
 
-2.Create a virtual environment and activate it:
+1. Install WSL2 (Ubuntu) and Python 3.11.
+
+2. Create a virtual environment and activate it:
 python3.11 -m venv .venv
 source .venv/bin/activate
 
@@ -77,9 +78,10 @@ Note: The mbpp dataset (about 956 tasks) is downloaded automatically on the firs
 
 
 Установка и запуск:
-1.Установите WSL2 (Ubuntu) и Python 3.11.
 
-2.Создайте виртуальное окружение и активируйте его:
+1. Установите WSL2 (Ubuntu) и Python 3.11.
+
+2. Создайте виртуальное окружение и активируйте его:
 python3.11 -m venv .venv
 source .venv/bin/activate
 
