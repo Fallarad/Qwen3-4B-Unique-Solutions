@@ -1,7 +1,7 @@
-### Trained Model Weights: [Hugging Face](https://huggingface.co/ТВОЙ_НИК/unique-code-rl)
-### Base Model: [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)
+**Trained Model Weights**: [Hugging Face](https://huggingface.co/ТВОЙ_НИК/unique-code-rl)
+**Base Model**: [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)
 
-## A project for training large language models (LLMs) to generate structurally unique code using reinforcement learning (GRPO).
+**A project for training large language models (LLMs) to generate structurally unique code using reinforcement learning (GRPO).**
 
 
 Features:
@@ -57,15 +57,15 @@ python train_rl.py
 Note: The mbpp dataset (about 956 tasks) is downloaded automatically on the first run. The number of training steps is set in the NUM_STEPS variable in the train_rl.py file (default is 1000).
 
 
-### FAQ
-### Read the [FAQ](FAQ.md) for technical details.
+**FAQ**
+Read the [FAQ](FAQ.md) for technical details.
 
 ---
 
-### Веса обученной модели: [Hugging Face](https://huggingface.co/ТВОЙ_НИК/unique-code-rl)
-### Базовая модель: [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)
+**Веса обученной модели**: [Hugging Face](https://huggingface.co/ТВОЙ_НИК/unique-code-rl)
+**Базовая модель**: [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)
 
-## Проект по обучению больших языковых моделей (LLM) генерации структурно уникального кода с помощью обучения с подкреплением (GRPO).
+**Проект по обучению больших языковых моделей (LLM) генерации структурно уникального кода с помощью обучения с подкреплением (GRPO).**
 
 
 Особенности:
@@ -121,5 +121,5 @@ python train_rl.py
 Примечание: датасет mbpp (около 956 задач) скачивается автоматически при первом запуске. Количество шагов обучения задается в переменной NUM_STEPS в файле train_rl.py (по умолчанию установлено 1000).
 
 
-### FAQ
-### Прочитать [FAQ](FAQ.md) для получения технических деталей.
+**FAQ**
+Прочитать [FAQ](FAQ.md) для получения технических деталей.
