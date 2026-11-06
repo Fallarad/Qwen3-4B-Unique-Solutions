@@ -1,4 +1,4 @@
-# Frequently Asked Questions (FAQ)
+**Frequently Asked Questions (FAQ)**
 
 Here are the answers to common technical questions regarding this project.
 
@@ -19,9 +19,11 @@ The seed is a parameter set in the training script (in our case, SEED = 42). It 
 
 The seed was fixed to prove that the increase in uniqueness is not random luck, but the result of 1000 steps of mathematical optimization.
 
+
+**[Back to README](README.md)**
 ---
 
-# Часто задаваемые вопросы (FAQ)
+**Часто задаваемые вопросы (FAQ)**
 
 Здесь собраны ответы на частые технические вопросы по проекту.
 
@@ -41,3 +43,6 @@ The seed was fixed to prove that the increase in uniqueness is not random luck, 
 Сид это параметр, который задается в скрипте обучения (в нашем случае SEED = 42). Он контролирует начальную инициализацию весов и перемешивание данных во время обучения. 
 
 Сид был зафиксирован, чтобы доказать, что рост уникальности это не случайное везение, а результат 1000 шагов математической оптимизации.
+
+
+**[Вернуться к README](README.md)**
