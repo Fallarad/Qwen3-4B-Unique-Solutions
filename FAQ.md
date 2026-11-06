@@ -1,3 +1,26 @@
+# Frequently Asked Questions (FAQ)
+
+Here are the answers to common technical questions regarding this project.
+
+1. Why can't I just write "generate unique code" in a prompt?
+A prompt changes the model's behavior only for a single run. Usually, this results in generating variations of the same template. 
+
+This project uses Reinforcement Learning (GRPO), which changes the actual weights of the model. We penalize the model for copying the structures of other responses in the batch. Because of this, it is forced to change its policy and search for alternative algorithms (e.g., using recursion instead of a loop). A prompt does not change the weights, but RL does.
+
+
+2. Why was the 4B model chosen? Isn't it too small?
+The goal of the project was to test the diversity reward mechanism, not to create an ideal assistant. It was previously proven that reasoning training works on 3B models on consumer hardware. 
+
+A 4B model is sufficient to show that a custom evaluator and structural penalties overcome the tendency to repeat solutions. Larger models require significantly more VRAM, which makes running on consumer GPUs impossible.
+
+
+3. What about the random seed?
+The seed is a parameter set in the training script (in our case, SEED = 42). It controls the initial weight initialization and data shuffling during training. 
+
+The seed was fixed to prove that the increase in uniqueness is not random luck, but the result of 1000 steps of mathematical optimization.
+
+---
+
 # Часто задаваемые вопросы (FAQ)
 
 Здесь собраны ответы на частые технические вопросы по проекту.
