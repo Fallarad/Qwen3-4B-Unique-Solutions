@@ -5,7 +5,7 @@ Here are the answers to common technical questions regarding this project.
 1. Why can't I just write "generate unique code" in a prompt?
 A prompt changes the model's behavior only for a single run. Usually, this results in generating variations of the same template. 
 
-This project uses Reinforcement Learning (GRPO), which changes the actual weights of the model. We penalize the model for copying the structures of other responses in the batch. Because of this, it is forced to change its policy and search for alternative algorithms (e.g., using recursion instead of a loop). A prompt does not change the weights, but RL does.
+This project uses Reinforcement Learning (GRPO), which changes the actual weights of the model. A penalty is applied for copying the structures of other responses in the batch. Because of this, the model is forced to change its policy and search for alternative algorithms (e.g., using recursion instead of a loop). A prompt does not change the weights, but RL does.
 
 
 2. Why was the 4B model chosen? Isn't it too small?
@@ -15,7 +15,7 @@ A 4B model is sufficient to show that a custom evaluator and structural penaltie
 
 
 3. What about the random seed?
-The seed is a parameter set in the training script (in our case, SEED = 42). It controls the starting state of the weight and data shuffling during training.
+The seed is a parameter set in the training script (in our case, SEED = 42). It controls the starting state of the weights and data shuffling during training.
 
 The seed was fixed to prove that the increase in uniqueness is not random luck, but the result of 1000 training steps.
 
@@ -31,7 +31,7 @@ The seed was fixed to prove that the increase in uniqueness is not random luck, 
 1. Почему нельзя просто написать в промпте "выдай уникальный код"?
 Промпт меняет поведение модели только для одного запуска. Обычно это приводит к генерации вариаций одного и того же шаблона. 
 
-В этом проекте используется обучение с подкреплением (GRPO), которое меняет реальные веса модели. Мы штрафуем модель за копирование структур других ответов в пакете. Из-за этого она вынуждена менять свою политику и искать альтернативные алгоритмы (например, использовать рекурсию вместо цикла). Промпт не меняет веса, а RL меняет.
+В этом проекте используется обучение с подкреплением (GRPO), которое меняет реальные веса модели. Применяется штраф за копирование структур других ответов в пакете. Из-за этого модель вынуждена менять свою политику и искать альтернативные алгоритмы (например, использовать рекурсию вместо цикла). Промпт не меняет веса, а RL меняет.
 
 
 2. Почему выбрана модель 4B? Разве она не слишком маленькая?
@@ -41,9 +41,9 @@ The seed was fixed to prove that the increase in uniqueness is not random luck, 
 
 
 3. А что насчет случайного сида?
-Сид это параметр, который задается в скрипте обучения (в нашем случае SEED = 42). Он контролирует стартовое состояние весов и перемешивание данных во время обучения. 
+Сид это параметр, который задается в скрипте обучения (в нашем случае SEED = 42). Он контролирует стартовое состояние весов и перемешивание данных во время обучения.
 
-Сид был зафиксирован, чтобы доказать, что рост уникальности это не случайное везение, а результат 1000 шагов процесса обучения.
+Сид был зафиксирован, чтобы доказать, что рост уникальности это не случайное везение, а результат 1000 шагов обучения.
 
 
 [Вернуться к README](README.md)
