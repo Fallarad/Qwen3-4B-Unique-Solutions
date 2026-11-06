@@ -1,4 +1,7 @@
-A project for training large language models (LLMs) to generate structurally unique code using reinforcement learning (GRPO).
+### Trained Model Weights: [Hugging Face](https://huggingface.co/ТВОЙ_НИК/unique-code-rl)
+### Base Model: [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)
+
+## A project for training large language models (LLMs) to generate structurally unique code using reinforcement learning (GRPO).
 
 
 Features:
@@ -53,9 +56,16 @@ python train_rl.py
 
 Note: The mbpp dataset (about 956 tasks) is downloaded automatically on the first run. The number of training steps is set in the NUM_STEPS variable in the train_rl.py file (default is 1000).
 
+
+### FAQ
+### Read the [FAQ](FAQ.md) for technical details.
+
 ---
 
-Проект по обучению больших языковых моделей (LLM) генерации структурно уникального кода с помощью обучения с подкреплением (GRPO).
+### Веса обученной модели: [Hugging Face](https://huggingface.co/ТВОЙ_НИК/unique-code-rl)
+### Базовая модель: [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)
+
+## Проект по обучению больших языковых моделей (LLM) генерации структурно уникального кода с помощью обучения с подкреплением (GRPO).
 
 
 Особенности:
@@ -109,3 +119,7 @@ hf download Qwen/Qwen3-4B --local-dir./Qwen3-4B
 python train_rl.py
 
 Примечание: датасет mbpp (около 956 задач) скачивается автоматически при первом запуске. Количество шагов обучения задается в переменной NUM_STEPS в файле train_rl.py (по умолчанию установлено 1000).
+
+
+### FAQ
+### Прочитать [FAQ](FAQ.md) для получения технических деталей.
