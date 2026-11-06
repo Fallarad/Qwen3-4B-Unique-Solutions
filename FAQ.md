@@ -15,9 +15,9 @@ A 4B model is sufficient to show that a custom evaluator and structural penaltie
 
 
 3. What about the random seed?
-The seed is a parameter set in the training script (in our case, SEED = 42). It controls the initial weight initialization and data shuffling during training. 
+The seed is a parameter set in the training script (in our case, SEED = 42). It controls the starting state of the weight and data shuffling during training.
 
-The seed was fixed to prove that the increase in uniqueness is not random luck, but the result of 1000 steps of mathematical optimization.
+The seed was fixed to prove that the increase in uniqueness is not random luck, but the result of 1000 training steps.
 
 
 [Back to README](README.md)
@@ -41,9 +41,9 @@ The seed was fixed to prove that the increase in uniqueness is not random luck, 
 
 
 3. А что насчет случайного сида?
-Сид это параметр, который задается в скрипте обучения (в нашем случае SEED = 42). Он контролирует начальную инициализацию весов и перемешивание данных во время обучения. 
+Сид это параметр, который задается в скрипте обучения (в нашем случае SEED = 42). Он контролирует стартовое состояние весов и перемешивание данных во время обучения. 
 
-Сид был зафиксирован, чтобы доказать, что рост уникальности это не случайное везение, а результат 1000 шагов математической оптимизации.
+Сид был зафиксирован, чтобы доказать, что рост уникальности это не случайное везение, а результат 1000 шагов процесса обучения.
 
 
 [Вернуться к README](README.md)
