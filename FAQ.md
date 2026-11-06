@@ -20,7 +20,8 @@ The seed is a parameter set in the training script (in our case, SEED = 42). It 
 The seed was fixed to prove that the increase in uniqueness is not random luck, but the result of 1000 steps of mathematical optimization.
 
 
-**[Back to README](README.md)**
+[Back to README](README.md)
+
 ---
 
 **Часто задаваемые вопросы (FAQ)**
@@ -45,4 +46,4 @@ The seed was fixed to prove that the increase in uniqueness is not random luck, 
 Сид был зафиксирован, чтобы доказать, что рост уникальности это не случайное везение, а результат 1000 шагов математической оптимизации.
 
 
-**[Вернуться к README](README.md)**
+[Вернуться к README](README.md)
