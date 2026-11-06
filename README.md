@@ -1,4 +1,4 @@
-**Trained Model Weights**: [Hugging Face](https://huggingface.co/Fallarad/unique-code-rl)
+**Trained Model Weights**: [Hugging Face](https://huggingface.co/Fallarad/Qwen3-4B-Unique-Solutions)
 **Base Model**: [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)
 
 **A project for training large language models (LLMs) to generate structurally unique code using reinforcement learning (GRPO).**
@@ -62,7 +62,7 @@ Read the [FAQ](FAQ.md) for technical details.
 
 ---
 
-**Веса обученной модели**: [Hugging Face](https://huggingface.co/Fallarad/unique-code-rl)
+**Веса обученной модели**: [Hugging Face](https://huggingface.co/Fallarad/Qwen3-4B-Unique-Solutions)
 **Базовая модель**: [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)
 
 **Проект по обучению больших языковых моделей (LLM) генерации структурно уникального кода с помощью обучения с подкреплением (GRPO).**
